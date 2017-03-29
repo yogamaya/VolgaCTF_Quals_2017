@@ -46,9 +46,11 @@ Extracting file is a gz-archive.
 At this moment you should remember the 2d hint - gzsteg. This is a name of stegapower patch for gzip (v 1.2.4).
 Downloading the source code, patching that with gzsteg-patch.
 
-`patch -c < patch1
+```
+patch -c < patch1
 patch -c < patch2
-patch -c < patch3`
+patch -c < patch3
+```
 
 Patch adds new option to standard gzip: "-s" or "--steg", which provides hiding/revealing of files into archive.
 
