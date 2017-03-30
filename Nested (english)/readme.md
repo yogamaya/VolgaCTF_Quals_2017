@@ -19,6 +19,10 @@ Opening dump.pcap in BLESS (or other HEX-editor). In this file we have a chance 
 
 ![screenshot of sample](https://github.com/yogamaya/VolgaCTF_Quals_2017/blob/master/other/Screenshot%20from%202017-03-27%2013-32-14.png)
 
+Running command:
+
+`7za x dump.pcap`
+
 Extracting files.
 
 ![screenshot of sample](https://github.com/yogamaya/VolgaCTF_Quals_2017/blob/master/other/Screenshot%20from%202017-03-27%2013-37-04.png)
