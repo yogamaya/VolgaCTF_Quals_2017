@@ -19,9 +19,10 @@ Opening dump.pcap in BLESS (or other HEX-editor). In this file we have a chance 
 
 ![screenshot of sample](https://github.com/yogamaya/VolgaCTF_Quals_2017/blob/master/other/Screenshot%20from%202017-03-27%2013-32-14.png)
 
+You should copy bytes from a 7zip signature (37 7a dc ..) to the end of file. And paste them into a new file with 7z-extention. To example d.7z.
 Running command:
 
-`7za x dump.pcap`
+`7za x d.7z`
 
 Extracting files.
 
